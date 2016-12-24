@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        rb = GetComponent<Rigidbody>();
+        //rb = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
@@ -16,16 +16,23 @@ public class PlayerController : MonoBehaviour {
         //{
         //    Debug.Log("Input W");
         //}
-    }
 
-    // use for before any physics calculation 
-    void FixedUpdate()
-    {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
-        rb.AddForce(movement * 10.0f);
+        transform.Translate(movement * 3.0f * Time.deltaTime);
+    }
+
+    // use for before any physics calculation 
+    void FixedUpdate()
+    {
+        //float moveHorizontal = Input.GetAxis("Horizontal");
+        //float moveVertical = Input.GetAxis("Vertical");
+
+        //Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+
+        //rb.AddForce(movement * 10.0f);
     }
 }
