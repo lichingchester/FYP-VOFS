@@ -114,6 +114,15 @@
      <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\VRHeightOffset.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Extras\Cursor3D.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\CompressibleUI.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\ILeapWidget.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\LeapInputModule.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\PhysicsUI.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\ScrollRectVolume.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\SliderShadow.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\SliderVolume.cs" />
+     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\ToggleToggler.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
