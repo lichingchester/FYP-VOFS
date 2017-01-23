@@ -45,6 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Extras\Cursor3D.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\CompressibleUI.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\ILeapWidget.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\LeapInputModule.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\PhysicsUI.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\Utilities\ScrollRectVolume.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\Utilities\SliderShadow.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\Utilities\SliderVolume.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Scripts\Utilities\ToggleToggler.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SlidingMax.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedFloat.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedQuaternion.cs" />
@@ -114,17 +123,8 @@
      <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\VRHeightOffset.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Extras\Cursor3D.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\CompressibleUI.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\ILeapWidget.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\LeapInputModule.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\PhysicsUI.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\ScrollRectVolume.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\SliderShadow.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\SliderVolume.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Scripts\Utilities\ToggleToggler.cs" />
-     <Compile Include="Assets\Scripts\CameraController_Test.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Project\Scripts\CameraController_Test.cs" />
+     <Compile Include="Assets\Project\Scripts\PlayerController.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />

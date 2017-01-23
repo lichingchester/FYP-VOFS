@@ -52,6 +52,8 @@
      <Compile Include="Assets\LeapMotion\Editor\Tests\FrameValidator.cs" />
      <Compile Include="Assets\LeapMotion\Editor\Tests\HandFactoryTest.cs" />
      <Compile Include="Assets\LeapMotion\Editor\Tests\TransformCopyTest.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Editor\CompressibleUIEditor.cs" />
+     <Compile Include="Assets\LeapMotion\LeapMotionModules\UIInput\Editor\LeapInputModuleEditor.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Algorithms\Editor\Tests\SlidingMaxTest.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Attributes\Editor\CombinablePropertyDrawer.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\DataStructures\Editor\SerializableDictionaryEditor.cs" />
@@ -60,8 +62,6 @@
      <Compile Include="Assets\LeapMotion\Scripts\DataStructures\Editor\Tests\RingBufferTest.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\Editor\EyeTypeEditor.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\Editor\LeapTemporalWarpingEditor.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Editor\CompressibleUIEditor.cs" />
-     <Compile Include="Assets\LeapMotionModules\UIInput\Editor\LeapInputModuleEditor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
